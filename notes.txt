@@ -1,0 +1,5 @@
+Stick the .dll in the executable folder.
+
+cmake -G "MSYS Makefiles" ..
+
+fluidsynth /usr/share/sounds/sf2/FluidR3_GM.sf2 mymusicfile.mid
